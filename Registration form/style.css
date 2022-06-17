@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,500;0,600;0,700;1,400&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px ;
+    background: url(bg-intro-desktop.png);
+    background-color:  hsl(0, 100%, 74%) ;
+    min-height: 100vh;
+    padding: 100px;
+}
+.container{
+    display: flex;
+align-items: center;
+flex-direction: row;
+height: auto;
+margin: auto;
+padding-left: 40px;
+}
+h3{
+    font-weight: 800;
+}
+p{font-size: 16px;
+}
+form{
+    font-weight: 600;
+}
+button{
+    font-weight: 700;
+}
+strong{
+    color: red;
+}
+.first_content{
+    color: white;
+    padding: 30px;
+    padding-right: 50px;
+    width: 50%;
+    margin: auto;
+}
+
+.container1 {
+    padding: 16px;
+    background-color:rgb(253, 249, 249);
+  }
+  
+  /* Full-width input fields */
+  input[type=text], input[type=password] {
+    width: 100%;
+    padding: 15px;
+    font-family: 'Poppins', sans-serif;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: #ddd;
+    background: white;
+    border-radius: 5px;
+  }
+  
+  input[type=text]:focus, input[type=password]:focus {
+    background-color: #ddd;
+    outline: none;
+  }
+  
+  
+  /* Set a style for the submit button */
+  .registerbtn {
+    background-color: #04AA6D;
+    color: white;
+    padding: 16px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+  }
+  
+  .registerbtn:hover {
+    opacity: 1;
+  }
+  .second_content{
+    display: grid;
+    grid-template-areas: 
+    'b'
+    'a';
+    gap: 20px;
+  }
+  .container1{grid-area: b;
+
+  }
+.container2{grid-area: b;
+    background-color:  hsl(249, 78%, 33%) ;
+    color: white;
+    width: 100%;
+    padding: 20px;
+    font-family: 'Poppins', sans-serif;
+    border:hsl(249, 78%, 33%);
+    border-radius: 5px;
+
+
+}  
+h6{
+    font-weight: 400,
+}
+.down{
+    color: antiquewhite;
+}
